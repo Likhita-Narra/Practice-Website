@@ -1,0 +1,67 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(88, 43, 16);
+}
+.content{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 8%;
+}
+@media (max-width:800px){
+    .content{
+        flex-direction:column;
+    }
+}
+.caption{
+    margin-top:8%;
+}
+.content h1{
+    font-family: 'Fascinate', cursive;
+    color:#e0a257;
+    font-size: 60px;
+}
+.content p{
+    font-family: 'Dancing Script', cursive;
+    color:rgb(245, 114, 195);
+    font-size: 42px;
+}
+.card{
+    margin:3%;
+    padding:15px;
+}
+.heading{
+    margin:4%;
+    text-align: center;
+    color: #e0a257;
+}
+.navbar{
+    background-color: #e0a257;
+}
+li{
+     float:left;
+     margin:4%;
+}
+.icons li{
+    float:right;
+    list-style-type:none;
+    font-size: 2.5rem;
+    pointer-events: inherit;
+}
+
+.contact h1{
+    color:#e0a257; 
+    text-align:center;
+}
+.form{
+    width:50%;
+    margin-left: 25%;
+    margin-top:5%;
+    color:#e0a257;
+}
